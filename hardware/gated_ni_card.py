@@ -39,7 +39,7 @@ class SlowGatedNICard(NationalInstrumentsXSeries):
     Overwrite in this new class therefore the appropriate methods. """
 
     _modtype = 'SlowGatedNICard'
-    _modclass = 'hardware' 
+    _modclass = 'hardware'
 
     def on_activate(self):
         """ Starts up the NI Card at activation.
